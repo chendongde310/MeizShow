@@ -14,10 +14,11 @@
 
     <TextView
         android:id="@+id/text_out"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
+        android:gravity="center"
         android:textSize="20sp"
         android:visibility="gone"
         android:text="访问超时：点我重试"/>
